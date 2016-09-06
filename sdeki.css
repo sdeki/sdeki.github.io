@@ -82,9 +82,44 @@
     .c-4 > div{
       width: 238px;
     }
+
+    .c-4 > div > img{
+      width: 238px;
+
+    }
+    .c-4 > div > div > a > img{
+      width: 238px;
+
+    }
     .c-3 > div{
       width: 317px;
     }
+
+    .video{
+      height: 600px;
+      font-size: 30px;
+    }
+
+    .icons > div{
+
+
+        display: table-cell;
+        font-size: 28px;
+
+    }
+
+    .sheetClip > div{
+      display: table-cell;
+      height: 600px;
+      font-size: 28px;
+    }
+    .sheetClip > div > div> a > div{
+      color: white;
+      background-color: #ff8787;
+      border: solid 1px #f9dede;
+      border-radius: 22px;
+    }
+
     .pdtDT > div:not(.video){
       vertical-align: bottom;
       text-align: right;
