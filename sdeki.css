@@ -97,7 +97,7 @@
 
     .video{
       height: 600px;
-      font-size: 30px;
+      font-size: 43px;
     }
 
     .icons > div{
@@ -137,6 +137,19 @@
       font-size: 75px;
       margin-top: -83px;
     }
+
+    .single{
+          display: inline-block;
+          font-size: 60px;
+          text-align: left;
+          color: black;
+          padding-left: 20px;
+    }
+    .single > div{
+      margin-top:  -550px;
+
+    }
+
     .tt{
       padding-top: 50px;
       font-size: 30px;
