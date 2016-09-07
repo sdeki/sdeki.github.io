@@ -74,7 +74,6 @@
     }
 
     .c-1{
-      width: 800px;
     }
     .c-2 > div{
       width: 475px;
@@ -131,7 +130,7 @@
 
     .pdtDT > div:not(.video){
       vertical-align: bottom;
-      
+
     }
 
     .pdtDT > div{
