@@ -118,7 +118,7 @@
 
     .sheetClip > div{
       display: table-cell;
-      height: 600px;
+      
       font-size: 28px;
     }
     .sheetClip > div > div> a > div{
@@ -126,6 +126,8 @@
       background-color: #ff8787;
       border: solid 1px #f9dede;
       border-radius: 22px;
+      width: 232px;
+      display: inline;
     }
 
     .pdtDT > div:not(.video){
