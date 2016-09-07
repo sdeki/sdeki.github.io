@@ -95,6 +95,15 @@
       width: 317px;
     }
 
+    .c-3 > div > img{
+      width: 317px;
+
+    }
+    .c-3 > div > div > a > img{
+      width: 317px;
+
+    }
+
     .video{
       height: 600px;
       font-size: 43px;
@@ -137,7 +146,11 @@
       font-size: 75px;
       margin-top: -83px;
     }
-
+    .color-list{
+      text-align: left;
+      font-size: 40px;
+      margin-top: -58px;
+    }
     .single{
           display: inline-block;
           font-size: 60px;
