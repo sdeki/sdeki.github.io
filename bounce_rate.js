@@ -6,6 +6,7 @@ function fixBounce(){
     if (($(window).scrollTop() > stored_height) && (a == 0)) {
      ga('send','event','fix-bounce-rate','scroll','over 50%');
      a = 1;
+     console.log($(window).scrollTop())
     }
   })
 }
