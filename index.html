@@ -17,6 +17,9 @@
 
   </head>
   <style type="text/css">
+    .contant{
+      background-color: #eeeeee;
+    }
     .resetStyle ul li {
     list-style: none;
     }
@@ -30,9 +33,9 @@
       max-width: 100px;
       display: inline-block;
     }
-    .row{
+    .rw{
       margin:0 auto;
-      display: inline;
+
       vertical-align: middle;
     }
     .circle{
@@ -42,33 +45,27 @@
       border: solid;
       vertical-align: middle;
       width: 320px;
-        border-radius: 500px;
-        background-color: #ff6867;
-        color: white;
-        font-size: 50px;
+      border-radius: 500px;
+      background-color: #ff6867;
+      color: white;
+      font-size: 50px;
     }
     .sp{
       font-size: 80px;
-      color: white;
-      text-shadow: 0 0 15px #000;
         display: table-cell;
         vertical-align: middle;
         width: 63%;
       }
-      .toc{
-        margin:0 auto;
-        display: inline;
-      }
-
       .ban a{
         text-decoration: none;
       }
 
       .toc > div > a > div{
-        color: white;
-        text-align: right;
+        color: rgb(255, 255, 255);
+        text-align: center;;
         font-size: 75px;
         margin-top: -83px;
+
       }
       .toc > div{
         height: 400px;
@@ -76,8 +73,11 @@
         display: table-cell;
         vertical-align: bottom;
         text-align: left;
-        text-shadow: 0 0 15px #000;
-        border: 2px solid rgb(161,141,106);
+
+      }
+      .bor {
+        background-color: white;
+        border: 2px solid rgb(243, 243, 243);
         border-radius: 0px 0px 12px 10px;
       }
       .toc >div >img{
@@ -85,7 +85,7 @@
         z-index: -1;
         margin-top: -333px;
       }
-      .row > div:not(.circle):not(.sp) {
+      .rw > div:not(.circle):not(.sp) {
         display: table-cell;
         text-align: center;
         height: 320px;
@@ -105,17 +105,23 @@
         display: table-cell;
         height: 300px;
         vertical-align: bottom;
-        text-align: right;
+
         font-size: 30px;
-        border: 2px solid rgb(161,141,106);
+        border: 2px solid rgb(161,141,106,0);
         border-radius: 0px 0px 12px 10px;
       }
-
+      .pdtDT > div > a > div, .toc > div > a > div{
+        color: white;
+        position: relative;
+        background-color: rgba(79, 72, 72, 0.74);
+        border-radius: 500px;
+      }
       .pdtDT > div > a > div{
-        color:white;
-        text-shadow: 0 0 15px #000;
-        font-size: 75px;
-        margin-top: -83px;
+        font-size: 54px;
+        margin-top: -78px;
+        width: 65%;
+        text-align: center;
+        margin-left: 17%;
       }
       .tt{
         padding-top: 50px;
@@ -131,7 +137,7 @@
   <body>
     <div class="contant">
       <div class= "ban sr">
-      <div class = "row">
+      <div class = "rw">
         <div class = "circle">
           全館<br>
           單次消費滿
@@ -140,39 +146,48 @@
         <div >$899好禮贈</div>
       </div>
     </div>
-      <div class = "toc">
+      <div class ="tt"><a id="c"><a id="0"></a>服飾配件</div>
+      <div class = "toc bor">
           <div><a href="#1"><img src = "http://i.imgur.com/LlkiQOA.jpg"><div>腰帶</div></a></div>
         <div><a href="#2"><img src = "http://i.imgur.com/EzjjrlJ.jpg"><div>吊帶</div></a></div>
         <div><a href="https://goo.gl/SHZkp4"><img src = "http://i.imgur.com/OoMaKlV.jpg"><div>袖夾</div></a></div>
-        <div><a href="https://goo.gl/7wVJiK"><img src="http://i.imgur.com/xepZzBp.jpg"><div>床單夾</div></a></div>
       </div>
       <div> </div>
+      <div class ="tt"><a id="0"><a id="1-0"></a>寢具用品</div>
+      <div class = "bor ">
+        <div><a href="https://goo.gl/7wVJiK"><img src="http://i.imgur.com/EQSqmbW.jpg"><div></div></a></div>
+      </div>
       <div class ="tt"><a id="1"><a id="1-1"></a>大人腰帶</div>
-      <div class = "row">
+
+      <div class = "rw bor">
         <div>
-            <div class = "pdtDT c-4">
-              <div><a href ="https://goo.gl/0YhrlS"><img src="http://i.imgur.com/YTzlTFR.jpg"><div>皮革</div></a></div>
-              <div><a href ="https://goo.gl/XV8JCx"><img src="http://i.imgur.com/XudT6Sh.jpg"><div>帆布</div></a></div>
-              <div><a href ="https://goo.gl/yiNSvI"><img src="http://i.imgur.com/uPKW0It.jpg"><div>洞帆布</div></a></div>
-              <div><a href ="https://goo.gl/Ntr5Um"><img src="http://i.imgur.com/SzbO638.jpg"><div>編織帶</div></a></div>
+            <div class = "pdtDT c-2">
+              <div><a href ="https://goo.gl/0YhrlS"><img src="http://i.imgur.com/YTzlTFR.jpg"><div>皮革腰帶</div></a></div>
+              <div><a href ="https://goo.gl/XV8JCx"><img src="http://i.imgur.com/XudT6Sh.jpg"><div>帆布腰帶</div></a></div>
+            </div>
+            <div class = "pdtDT c-2">
+              <div><a href ="https://goo.gl/yiNSvI"><img src="http://i.imgur.com/uPKW0It.jpg"><div>打洞腰帶</div></a></div>
+              <div><a href ="https://goo.gl/Ntr5Um"><img src="http://i.imgur.com/SzbO638.jpg"><div>編織腰帶</div></a></div>
 
             </div>
         </div>
       </div>
       <div class ="tt"><a id="1-2"></a>兒童腰帶</div>
-      <div class = "row">
+      <div class = "rw bor">
         <div>
-            <div class = "pdtDT c-4">
-              <div><a href ="https://goo.gl/H1xIJH"><img src="http://i.imgur.com/3tQpCVs.jpg"><div>皮革</div></a></div>
-              <div><a href ="https://goo.gl/Rl2IeO"><img src="http://i.imgur.com/5WI3GM9.jpg"><div>免脫</div></a></div>
-              <div><a href ="https://goo.gl/P1rClc"><img src="http://i.imgur.com/vwsVBeu.jpg"><div>鬆緊帶</div></a></div>
-              <div><a href ="https://goo.gl/uEM0YK"><img src="http://i.imgur.com/HYP04nA.jpg"><div>洞帆布</div></a></div>
-            </div>
+            <div class = "pdtDT c-2">
+              <div><a href ="https://goo.gl/H1xIJH"><img src="http://i.imgur.com/3tQpCVs.jpg"><div>皮革腰帶</div></a></div>
+              <div><a href ="https://goo.gl/Rl2IeO"><img src="http://i.imgur.com/5WI3GM9.jpg"><div>免脫腰帶</div></a></div>
 
+            </div>
+            <div class = "pdtDT c-2">
+              <div><a href ="https://goo.gl/P1rClc"><img src="http://i.imgur.com/vwsVBeu.jpg"><div>鬆緊腰帶</div></a></div>
+              <div><a href ="https://goo.gl/uEM0YK"><img src="http://i.imgur.com/HYP04nA.jpg"><div>打洞腰帶</div></a></div>
+            </div>
         </div>
       </div>
         <div class ="tt"><a id="2"><a id="2-1"></a>大人吊帶</div>
-      <div class = "row">
+      <div class = "rw">
           <div >
             <div class="pdtDT c-2">
               <div>
@@ -182,7 +197,7 @@
         </div>
       </div>
       <div class ="tt"><a id="2-2"></a>兒童吊帶</div>
-      <div class = "row">
+      <div class = "rw">
           <div>
             <div class="pdtDT c-2">
               <div><a href ="https://goo.gl/QISRJm"><img src="http://i.imgur.com/zZOsvHV.jpg"><div>Y型</div></a></div>
@@ -193,28 +208,14 @@
 
       <div class="tt">電話：　0966-282-590</div>
       <div class="tt">粉絲團</div>
-      <div class="row">
+      <div class="rw">
               <a rel="nofollow" target="_blank" href="https://www.facebook.com/sdeki3388/"><img src="https://dl.dropboxusercontent.com/u/193561833/QRCODE/FAN-FB.jpg"></a>
       </div>
       <div class="tt">Ｌｉｎｅ</div>
-      <div class="row">
+      <div class="rw">
         <a rel="nofollow" target="_blank" href="http://line.me/ti/p/%40jji6620s"><img src="https://dl.dropboxusercontent.com/u/193561833/QRCODE/LINE-AT-LOGO.jpg"></a>
       </div>
 
-      </div>
-          <!--this-->
-        <div class ="tt"><a id="3"></a>袖夾</div>
-      <div  class = "row">
-          <div >
-            <div class="pdtDT c-3">
-            <div>夾枕頭巾</div><div>夾袖子</div><div>夾腰身</div>
-          </div>
-          <div class="pdtDT c-3">
-            <div>可訂做長度</div>
-            <div>三種夾子可選擇</div>
-            <div><a href= "http://ppt.cc/Xhr1K"><img src=""><div>前往賣場</div></a></div>
-          </div>
-        </div>
       </div>
     </div>
     </div>
