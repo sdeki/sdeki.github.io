@@ -118,7 +118,7 @@
 
     .sheetClip > div{
       display: table-cell;
-      
+
       font-size: 28px;
     }
     .sheetClip > div > div> a > div{
@@ -165,6 +165,9 @@
 
     .tt{
       padding-top: 140px;
+      font-size: 30px;
+    }
+    .phone{
       font-size: 30px;
     }
 </style>
